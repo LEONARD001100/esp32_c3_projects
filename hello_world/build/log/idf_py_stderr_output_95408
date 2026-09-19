@@ -1,0 +1,7 @@
+Command: /home/leo/.espressif/tools/python/v6.1/venv/bin/python /home/leo/.espressif/v6.1/esp-idf/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix riscv32-esp-elf- --target esp32c3 --revision 3 --decode-panic backtrace /home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/hello_world.elf /home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/bootloader/bootloader.elf -m '/home/leo/.espressif/tools/python/v6.1/venv/bin/python' '/home/leo/.espressif/v6.1/esp-idf/tools/idf.py'
+--- esp-idf-monitor 1.10.0 on /dev/ttyUSB0 115200
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H
+--- 0x403cbf10: esp_bootloader_get_description at /home/leo/.espressif/v6.1/esp-idf/components/esp_bootloader_format/esp_bootloader_desc.c:40
+--- 0x403ce710: is_xmc_chip_strict at /home/leo/.espressif/v6.1/esp-idf/components/bootloader_support/bootloader_flash/src/bootloader_flash.c:911
+--- 0x403cbf1a: call_start_cpu0 at /home/leo/.espressif/v6.1/esp-idf/components/bootloader/subproject/main/bootloader_start.c:27
+

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/CMakeFiles/bootloader
+/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/CMakeFiles/bootloader.rule
+/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/CMakeFiles/bootloader-complete.rule
+/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

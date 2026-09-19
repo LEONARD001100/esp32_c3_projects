@@ -1,0 +1,3 @@
+-march=rv32imc_zicsr_zifencei
+-mtune=esp-base
+"-specs=/home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/specs/picolibc.specs"

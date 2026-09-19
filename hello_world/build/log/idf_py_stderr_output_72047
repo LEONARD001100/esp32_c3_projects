@@ -1,0 +1,4 @@
+Command: cmake -G Ninja -B /home/leo/dvmt/esp_c_three_minione_projects/hello_world/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/leo/.espressif/tools/python/v6.1/venv/bin/python -DESP_PLATFORM=1 -DIDF_TARGET=esp32c3 -DCCACHE_ENABLE=False /home/leo/dvmt/esp_c_three_minione_projects/hello_world
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished successfully

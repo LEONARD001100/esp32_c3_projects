@@ -1,0 +1,2 @@
+source /home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/bootloader/gdbinit/symbols
+source /home/leo/dvmt/esp_c_three_minione_projects/hello_world/build/bootloader/gdbinit/connect
