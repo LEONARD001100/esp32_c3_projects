@@ -94,8 +94,14 @@ static esp_err_t set_get_handler(httpd_req_t *req)
 
     printf("Web button pressed, b=%d\n", b);
 
-    int number_to_send = 11;                       
-    xQueueSend(number_queue, &number_to_send, 0);  
+    int number_to_send;
+    if (b > 0) {
+        number_to_send = 11;   // blue
+    } else {
+        number_to_send = 0;    // off
+    }
+
+    xQueueSend(number_queue, &number_to_send, 0);   // 0 = don't block the HTTP request
 
     httpd_resp_send(req, "OK", HTTPD_RESP_USE_STRLEN);
     return ESP_OK;
@@ -142,6 +148,10 @@ void led_task(void *param)
             vTaskDelay(pdMS_TO_TICKS(1000));
             led_strip_clear(strip);
             led_strip_refresh(strip);
+        } else if (received_number == 0) {
+            led_strip_clear(strip);
+            led_strip_refresh(strip);
+            printf("off\n");
         } else if (received_number % 2 == 0) {
             led_strip_set_pixel(strip, 0, 32, 0, 0);
             led_strip_refresh(strip);
